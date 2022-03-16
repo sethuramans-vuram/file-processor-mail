@@ -18,8 +18,8 @@ const transporter = nodemailer.createTransport({
 
 const sendMail = async ({ filepath }) => {
     let info = await transporter.sendMail({
-        from: '"Bala Kumaran" <balakumarank@vuram.com>',
-        to: "sethuramans@vuram.com",
+        from: 'From Email',
+        to: "To Email",
         subject: "Nodejs Test Mail" + new Date().getTime(),
         text: "Hello World",
         html: "<b>Hello World</b>",
