@@ -1,0 +1,23 @@
+{
+  "name": "file-processor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node -r esm index.ts"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "nodemailer": "^6.7.2"
+  },
+  "esm": {
+    "await": true
+  }
+}
